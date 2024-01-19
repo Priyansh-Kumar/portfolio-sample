@@ -107,6 +107,11 @@ h1{
     }
     
 }
+@media screen and (width<=799px) {
+    .left-part{
+        flex-basis:90% ;
+    }
+}
 
 
 
