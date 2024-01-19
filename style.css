@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-transform:uppercase;
+}
+/* body{
+    background-color:#0A1828;
+}
+h1{
+    color: #BFA181;
+} */
+.container{
+    color: #fe5000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color:#001233;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.left-part{
+    flex-basis: 35%;
+    
+}
+.right-part{
+    display: flex;
+    flex-basis: 35%;
+}
+
+.skills-img{
+    background-image: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 450px;
+    width: 500px;
+     
+    color: #222;
+   font-weight: bold;
+    background-color: #222;
+    background-blend-mode:soft-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    border: 5px solid #CAC0B3;
+    
+}
+.skills-img:hover{
+    background-color: #999;
+    background-position: bottom;
+    box-shadow: 0 0 4px #fff;
+    
+   
+}
+.skills-img{
+    color: #222;
+    padding: 10px 30px;
+}
+.tech-know{
+    width:15rem;
+    height:9rrem;
+}
+.projects{
+    width:15rem;
+    height:9rem;
+    margin-top: 10px;
+}
+.interests{
+    width:15rem;
+    height:9rem;
+    margin-top: 10px;
+}
+
+/* media query for width<=474 */
+
+
+@media screen and (width<=535px) {
+    .skills-img{
+        width: 450px;
+    }
+    
+}
+@media screen and (width<=472px) {
+    .skills-img{
+        width: 350px;
+     
+    }
+    
+}
+@media screen and (width<=377px) {
+    .skills-img{
+        width: 300px;
+        
+    }
+    
+}
+@media screen and (width<=313px) {
+    .skills-img{
+        width: 280px;
+        
+    }
+    
+}
+
+
+
+
+
+
